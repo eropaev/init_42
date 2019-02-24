@@ -1,0 +1,20 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    02                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: ieropaie <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/02/21 19:26:59 by ieropaie          #+#    #+#              #
+#    Updated: 2019/02/21 19:52:46 by ieropaie         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+# Identify and display the Ethernet interface characteristics
+#This command is Identify and display the Ethernet interface characteristics
+#getifaddr -prints to standard output the IP address for the first network service 
+#associated with the given interface.
+#en0 interface name (wired)
+
+networksetup -getinfo Ethernet
+

@@ -1,0 +1,16 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    01                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: ieropaie <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/02/21 19:13:21 by ieropaie          #+#    #+#              #
+#    Updated: 2019/02/21 19:25:29 by ieropaie         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+# Get the list of the network interface of the machine without displaing any detail
+# for these interfaces. Only the list of names.
+
+ifconfig -l  

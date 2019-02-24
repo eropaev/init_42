@@ -1,0 +1,19 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    03                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: ieropaie <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/02/21 19:53:10 by ieropaie          #+#    #+#              #
+#    Updated: 2019/02/21 19:53:56 by ieropaie         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#Identify the MAC address of the Wi-Fi card
+#ifconfig -- configure network interface parameters
+#take the row with "ether"
+#cut -d " " -f 2 -will take the result and extract the second word
+#en1 is the Wi-Fi card
+
+ifconfig en1 | grep "ether" | cut -d " " -f2

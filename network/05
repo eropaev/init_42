@@ -1,0 +1,18 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    05                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: ieropaie <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/02/21 20:01:45 by ieropaie          #+#    #+#              #
+#    Updated: 2019/02/21 20:02:58 by ieropaie         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#Identify the IP address of the DNS that responds to the following url: slash16.org
+#nslookup is used to query Internet domain name servers.
+#grep says take the row with "Server"
+#awk '{print $2}' says show me the 2nd field.
+
+nslookup slash16.org | grep "Server" | awk '{print $2}'

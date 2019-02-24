@@ -1,0 +1,20 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    04                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: ieropaie <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/02/21 19:54:42 by ieropaie          #+#    #+#              #
+#    Updated: 2019/02/21 19:59:00 by ieropaie         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#Identify the default gateway in the routing table
+#netstat's -n flag shows network addresses as numbers
+#netstat's -r flag shows the routing tables.
+#awk '{print $2}' says show me the 2nd field.
+#grep says take the row with 'default'
+#-m2 says stop reading the file after (num - 2) matches.
+
+netstat -rn | grep -m2 default | awk '{print $2}'
