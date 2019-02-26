@@ -1,17 +1,22 @@
 # **************************************************************************** #
 #                                                                              #
 #                                                         :::      ::::::::    #
-#    03                                                 :+:      :+:    :+:    #
+#    05                                                 :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
 #    By: ieropaie <ieropaie@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2019/02/25 19:13:08 by ieropaie          #+#    #+#              #
+#    Created: 2019/02/25 20:29:07 by ieropaie          #+#    #+#              #
 #    Updated: 2019/02/25 22:04:54 by ieropaie         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-#What file has to be modified to make it permanent?
+#Name the command that determines the state of the SSH service.
 
-/etc/hostname
+ps -ef |grep "sshd"
 
-#The hostname saved in this file (/etc/hostname) will be preserved on system reboot.
+#ps -- process status
+#-e Display information about other users' processes, including those
+#without controlling terminals.
+#-f Display the uid, pid, parent pid, recent CPU usage, process start
+#time, controlling tty, elapsed CPU usage, and the associated command.
+#grep take a row with "sshd"

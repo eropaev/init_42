@@ -1,17 +1,19 @@
 # **************************************************************************** #
 #                                                                              #
 #                                                         :::      ::::::::    #
-#    03                                                 :+:      :+:    :+:    #
+#    08                                                 :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
 #    By: ieropaie <ieropaie@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2019/02/25 19:13:08 by ieropaie          #+#    #+#              #
+#    Created: 2019/02/25 20:34:02 by ieropaie          #+#    #+#              #
 #    Updated: 2019/02/25 22:04:54 by ieropaie         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-#What file has to be modified to make it permanent?
+#What file contains the RSA keys of systems that are authorized to connect via SSH?
+#Run ssh-keygen on your machine, and just hit enter when asked for a password. 
+#This will generate both a private and a public key.
 
-/etc/hostname
-
-#The hostname saved in this file (/etc/hostname) will be preserved on system reboot.
+cat ~/.ssh/id_rsa
+or
+cat ~/.ssh/authorized_keys

@@ -1,17 +1,17 @@
 # **************************************************************************** #
 #                                                                              #
 #                                                         :::      ::::::::    #
-#    03                                                 :+:      :+:    :+:    #
+#    09                                                 :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
 #    By: ieropaie <ieropaie@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2019/02/25 19:13:08 by ieropaie          #+#    #+#              #
+#    Created: 2019/02/25 20:34:42 by ieropaie          #+#    #+#              #
 #    Updated: 2019/02/25 22:04:54 by ieropaie         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-#What file has to be modified to make it permanent?
+#What command lets you know who is connected to the System?
 
-/etc/hostname
+who
 
-#The hostname saved in this file (/etc/hostname) will be preserved on system reboot.
+#or w

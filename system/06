@@ -1,17 +1,18 @@
 # **************************************************************************** #
 #                                                                              #
 #                                                         :::      ::::::::    #
-#    03                                                 :+:      :+:    :+:    #
+#    06                                                 :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
 #    By: ieropaie <ieropaie@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2019/02/25 19:13:08 by ieropaie          #+#    #+#              #
+#    Created: 2019/02/25 20:29:15 by ieropaie          #+#    #+#              #
 #    Updated: 2019/02/25 22:04:54 by ieropaie         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-#What file has to be modified to make it permanent?
+#Name the command that reboots the SSH service.
 
-/etc/hostname
+/etc/init.d/sshd restart
 
-#The hostname saved in this file (/etc/hostname) will be preserved on system reboot.
+#or sudo service ssh restart
+#or sudo systemctl restart sshd
