@@ -5,12 +5,11 @@
 #                                                     +:+ +:+         +:+      #
 #    By: ieropaie <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2019/02/21 19:26:59 by ieropaie          #+#    #+#              #
-#    Updated: 2019/02/25 18:18:45 by ieropaie         ###   ########.fr        #
+#    Created: 2019/02/25 19:08:56 by ieropaie          #+#    #+#              #
+#    Updated: 2019/02/25 19:09:25 by ieropaie         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-# Identify and display the Ethernet interface characteristics
+#What command can you use to rename your system?
 
-networksetup -getinfo Ethernet
-
+sudo hostname your-new-name

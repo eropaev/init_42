@@ -1,16 +1,15 @@
 # **************************************************************************** #
 #                                                                              #
 #                                                         :::      ::::::::    #
-#    02                                                 :+:      :+:    :+:    #
+#    01                                                 :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
 #    By: ieropaie <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2019/02/21 19:26:59 by ieropaie          #+#    #+#              #
-#    Updated: 2019/02/25 18:18:45 by ieropaie         ###   ########.fr        #
+#    Created: 2019/02/25 18:52:45 by ieropaie          #+#    #+#              #
+#    Updated: 2019/02/25 18:53:27 by ieropaie         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-# Identify and display the Ethernet interface characteristics
+#In what file can you find the installed version of your Debian?
 
-networksetup -getinfo Ethernet
-
+cat /etc/debian_version

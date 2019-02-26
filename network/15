@@ -1,16 +1,15 @@
 # **************************************************************************** #
 #                                                                              #
 #                                                         :::      ::::::::    #
-#    02                                                 :+:      :+:    :+:    #
+#    15                                                 :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
 #    By: ieropaie <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2019/02/21 19:26:59 by ieropaie          #+#    #+#              #
-#    Updated: 2019/02/25 18:18:45 by ieropaie         ###   ########.fr        #
+#    Created: 2019/02/25 18:46:04 by ieropaie          #+#    #+#              #
+#    Updated: 2019/02/25 18:48:27 by ieropaie         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-# Identify and display the Ethernet interface characteristics
-
-networksetup -getinfo Ethernet
-
+# Make the 46.19.122.85 address reroute to intra.42.fr
+'https://profile.intra.42.fr/' >> /etc/hosts
+# permission denied: /etc/hosts

@@ -6,7 +6,7 @@
 #    By: ieropaie <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/02/21 19:54:42 by ieropaie          #+#    #+#              #
-#    Updated: 2019/02/21 19:59:00 by ieropaie         ###   ########.fr        #
+#    Updated: 2019/02/25 18:22:52 by ieropaie         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -18,3 +18,5 @@
 #-m2 says stop reading the file after (num - 2) matches.
 
 netstat -rn | grep -m2 default | awk '{print $2}'
+or
+netstat -rn | grep -A 2 "Gateway" | grep -A 1 "Refs"

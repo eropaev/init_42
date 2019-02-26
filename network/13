@@ -1,16 +1,15 @@
 # **************************************************************************** #
 #                                                                              #
 #                                                         :::      ::::::::    #
-#    02                                                 :+:      :+:    :+:    #
+#    13                                                 :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
 #    By: ieropaie <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2019/02/21 19:26:59 by ieropaie          #+#    #+#              #
-#    Updated: 2019/02/25 18:18:45 by ieropaie         ###   ########.fr        #
+#    Created: 2019/02/23 19:38:05 by ieropaie          #+#    #+#              #
+#    Updated: 2019/02/25 18:39:18 by ieropaie         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
+#Thanks to the previous question and the reverse DNS find the name of your host
 
-# Identify and display the Ethernet interface characteristics
-
-networksetup -getinfo Ethernet
+dig +noall +answer -x 10.113.8.8
 

@@ -1,16 +1,17 @@
 # **************************************************************************** #
 #                                                                              #
 #                                                         :::      ::::::::    #
-#    02                                                 :+:      :+:    :+:    #
+#    03                                                 :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
 #    By: ieropaie <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2019/02/21 19:26:59 by ieropaie          #+#    #+#              #
-#    Updated: 2019/02/25 18:18:45 by ieropaie         ###   ########.fr        #
+#    Created: 2019/02/25 19:13:08 by ieropaie          #+#    #+#              #
+#    Updated: 2019/02/25 19:13:39 by ieropaie         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-# Identify and display the Ethernet interface characteristics
+#What file has to be modified to make it permanent?
 
-networksetup -getinfo Ethernet
+/etc/hostname
 
+#The hostname saved in this file (/etc/hostname) will be preserved on system reboot.

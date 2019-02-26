@@ -1,16 +1,18 @@
 # **************************************************************************** #
 #                                                                              #
 #                                                         :::      ::::::::    #
-#    02                                                 :+:      :+:    :+:    #
+#    10                                                 :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
 #    By: ieropaie <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2019/02/21 19:26:59 by ieropaie          #+#    #+#              #
-#    Updated: 2019/02/25 18:18:45 by ieropaie         ###   ########.fr        #
+#    Created: 2019/02/23 19:15:20 by ieropaie          #+#    #+#              #
+#    Updated: 2019/02/23 19:16:45 by ieropaie         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-# Identify and display the Ethernet interface characteristics
+#Identify the network devices between your computer and the slash16.org domain
 
-networksetup -getinfo Ethernet
+traceroute slash16.org
 
+#traceroute print the route packets take to network host
+#nat - network device.

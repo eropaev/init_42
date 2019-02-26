@@ -1,16 +1,18 @@
 # **************************************************************************** #
 #                                                                              #
 #                                                         :::      ::::::::    #
-#    02                                                 :+:      :+:    :+:    #
+#    08                                                 :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
 #    By: ieropaie <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2019/02/21 19:26:59 by ieropaie          #+#    #+#              #
-#    Updated: 2019/02/25 18:18:45 by ieropaie         ###   ########.fr        #
+#    Created: 2019/02/23 19:10:16 by ieropaie          #+#    #+#              #
+#    Updated: 2019/02/25 18:26:43 by ieropaie         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
+#Find the provider of slash16.org
 
-# Identify and display the Ethernet interface characteristics
+whois slash16.org
+AWS Amazon Web Services
 
-networksetup -getinfo Ethernet
-
+# whois prints out the information of input domains.
+# man whois

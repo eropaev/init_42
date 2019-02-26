@@ -6,7 +6,7 @@
 #    By: ieropaie <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/02/21 19:53:10 by ieropaie          #+#    #+#              #
-#    Updated: 2019/02/21 19:53:56 by ieropaie         ###   ########.fr        #
+#    Updated: 2019/02/25 18:20:37 by ieropaie         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -17,3 +17,5 @@
 #en1 is the Wi-Fi card
 
 ifconfig en1 | grep "ether" | cut -d " " -f2
+or
+networksetup -listallhardwareports | grep -A 2 "Wi-Fi"

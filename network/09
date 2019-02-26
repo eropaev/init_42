@@ -1,16 +1,22 @@
 # **************************************************************************** #
 #                                                                              #
 #                                                         :::      ::::::::    #
-#    02                                                 :+:      :+:    :+:    #
+#    09                                                 :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
 #    By: ieropaie <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2019/02/21 19:26:59 by ieropaie          #+#    #+#              #
-#    Updated: 2019/02/25 18:18:45 by ieropaie         ###   ########.fr        #
+#    Created: 2019/02/23 19:15:03 by ieropaie          #+#    #+#              #
+#    Updated: 2019/02/23 19:15:12 by ieropaie         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-# Identify and display the Ethernet interface characteristics
+#Find the external IP of 42.fr
 
-networksetup -getinfo Ethernet
+163.172.250.11
+163.172.250.12
+163.172.250.13
 
+#Use this -> dig +short 42.fr or traceroute 42.fr
+
+#dig - DNS lookup utility
+#+short Provide a terse answer.
