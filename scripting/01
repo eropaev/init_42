@@ -1,16 +1,17 @@
 # **************************************************************************** #
 #                                                                              #
 #                                                         :::      ::::::::    #
-#    13                                                 :+:      :+:    :+:    #
+#    01                                                 :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
 #    By: ieropaie <ieropaie@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2019/02/26 19:13:23 by ieropaie          #+#    #+#              #
-#    Updated: 2019/02/26 19:18:39 by ieropaie         ###   ########.fr        #
+#    Created: 2019/02/26 20:25:01 by ieropaie          #+#    #+#              #
+#    Updated: 2019/02/26 20:25:46 by ieropaie         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-#Name the command that find, in real time, currently running processes.
-#top - display and update sorted information about processes.
+#Write a script which displays only the login, 
+#UID and Path of each entry of the
+#/etc/passwd file.
 
-top
+cat /etc/passwd | cut -d ":" -f1,3,6

@@ -1,16 +1,17 @@
 # **************************************************************************** #
 #                                                                              #
 #                                                         :::      ::::::::    #
-#    13                                                 :+:      :+:    :+:    #
+#    03                                                 :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
 #    By: ieropaie <ieropaie@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2019/02/26 19:13:23 by ieropaie          #+#    #+#              #
-#    Updated: 2019/02/26 19:18:39 by ieropaie         ###   ########.fr        #
+#    Created: 2019/02/26 20:26:50 by ieropaie          #+#    #+#              #
+#    Updated: 2019/02/26 20:31:58 by ieropaie         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-#Name the command that find, in real time, currently running processes.
-#top - display and update sorted information about processes.
+#Three’s a Charm. Write a script of you choice.
 
-top
+#!/bin/bash
+sudo apt-get update --yes >> update_script.log && sudo apt-get upgrade --yes >> update_script.log
+sudo mv update_script.log /var/log/

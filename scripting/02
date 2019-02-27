@@ -1,16 +1,16 @@
 # **************************************************************************** #
 #                                                                              #
 #                                                         :::      ::::::::    #
-#    13                                                 :+:      :+:    :+:    #
+#    02                                                 :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
 #    By: ieropaie <ieropaie@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2019/02/26 19:13:23 by ieropaie          #+#    #+#              #
-#    Updated: 2019/02/26 19:18:39 by ieropaie         ###   ########.fr        #
+#    Created: 2019/02/26 20:26:11 by ieropaie          #+#    #+#              #
+#    Updated: 2019/02/26 20:26:33 by ieropaie         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-#Name the command that find, in real time, currently running processes.
-#top - display and update sorted information about processes.
+#Write a script which delete an ACTIVE user on the VM.
 
-top
+sudo pkill -u $1
+sudo userdel $1

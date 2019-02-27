@@ -1,0 +1,16 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    23                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: ieropaie <ieropaie@student.42.fr>          +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/02/26 19:38:01 by ieropaie          #+#    #+#              #
+#    Updated: 2019/02/26 19:42:22 by ieropaie         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#Graphic => if user non-existent, adduser username, 
+#then connect normally via GUI
+
+SSH =>  ssh username@ipserver -p port

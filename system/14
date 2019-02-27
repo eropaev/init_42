@@ -1,0 +1,16 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    14                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: ieropaie <ieropaie@student.42.fr>          +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/02/26 19:14:54 by ieropaie          #+#    #+#              #
+#    Updated: 2019/02/26 19:18:39 by ieropaie         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#Run the ‘tail -f /var/log/syslog‘ command in background
+#To run a process directly from the background we use the ampersand '&' sign.
+
+tail -f /var/log/syslog &

@@ -1,0 +1,17 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    17                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: ieropaie <ieropaie@student.42.fr>          +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/02/26 19:26:20 by ieropaie          #+#    #+#              #
+#    Updated: 2019/02/26 20:19:58 by ieropaie         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#Find the command which gives the list of firewall rules.
+#iptables - administration tool for IPv4 packet filtering and NAT
+#-L - List all rules in the selected chain.
+
+ssh user@ip
